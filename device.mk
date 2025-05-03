@@ -46,9 +46,6 @@ PRODUCT_PACKAGES += \
     SonyPDX234SystemUIRes \
     SonyPDX234NfcNciRes
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
