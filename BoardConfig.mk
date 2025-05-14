@@ -23,7 +23,8 @@ DEVICE_PATH := device/sony/pdx234
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/sony/pdx234.config
+TARGET_KERNEL_CONFIG += vendor/sony/pdx234.config \
+                        kernel_extra.config
 
 # Props
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
