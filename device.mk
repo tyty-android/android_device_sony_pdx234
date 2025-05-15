@@ -49,14 +49,13 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-    
-# Xperia Extras
-$(call inherit-product, vendor/sony/extra/Yodo/extra.mk)
 
 TARGET_SHIPS_SONY_FRAMEWORK := true
 TARGET_SHIPS_SONY_CAMERA := true
-TARGET_SUPPORTS_SOUND_ENHANCEMENT := true
 TARGET_SHIPS_SOUND_ENHANCEMENT := true
+
+# Xperia Extras
+$(call inherit-product, vendor/sony/extra/Yodo/extra.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/sony/pdx234/pdx234-vendor.mk)
