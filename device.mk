@@ -61,6 +61,7 @@ TARGET_SHIPS_XPERIA_LWP_SELECTED := true
 TARGET_XPERIA_LWP_VERSION := LWP-1V
 
 # Xperia Extras
+$(call inherit-product, vendor/sony/extra/Common/apps/apps.mk)
 $(call inherit-product, vendor/sony/extra/Yodo/extra.mk)
 
 # Inherit from vendor blobs
