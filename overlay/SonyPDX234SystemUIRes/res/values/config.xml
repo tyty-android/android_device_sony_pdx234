@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- The number of rows in the paginated grid QuickSettings -->
+    <!-- We have a long screen to hold an extra row -->
+    <integer name="quick_settings_paginated_grid_num_rows">5</integer>
+</resources>
